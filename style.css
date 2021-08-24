@@ -1,0 +1,51 @@
+html, body{
+    min-height: 100vh;     /* both html and body are given minimum height of 100vh  */
+}
+body{
+    display:flex;
+    flex-direction: column;
+}
+.container-fluid{                /* inbuilt class can also be styled*/
+flex: 2 0 auto;
+}
+.main-box
+{
+    margin-top: -5px;  /* the margin is negative here to display the main box just below the heading */
+    width: 420px;
+    box-shadow: 1px 1px 20px 5px #cccccc, -1px, -1px, 20px, 5px #cccccc;  /* this provides shadow around the box, 1px left 1px right 20px at bottom and 5px at the top and also the color of the shadow is given*/
+    display: flex;
+    flex-direction: column;
+}
+.main-box{
+    font-size: 100%;
+}
+.fa-heart{
+    color: red;
+}
+.fa-code{
+    color:deepskyblue;
+}
+footer{
+    margin-top: 0px;
+    flex-shrink: 0;
+    padding: 20px 0 20px 0;
+    color:black;
+    background-color: slateblue;
+    /*background-color: rgba(34, 39, 39, 0.9); rgba= red green blue alpha(appearance,visibilty)*/
+    font-size: 1.15em;
+}
+.box{                           /* this was class created in js section*/
+     font-family: 'Permanent Marker', cursive;
+     background-color:lightpink;
+     font-size: 500%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 0.10px solid #585858;
+}
+.controls a{
+    padding: 5px;
+}
+.controls a{
+    font-size: 100%;
+}
